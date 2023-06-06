@@ -1,0 +1,70 @@
+.Watchmaindiv {
+  background-image: url("../images/image-3.e321bbcd23fb672a86e4.jpg");
+  width: 100%;
+  height: 125vh;
+  margin-top: -23px;
+}
+.Watchmaindivsub h4 {
+  color: rgb(241, 227, 143);
+  text-align: center;
+  padding-top: 50px;
+}
+.Watchmaindivsub h1 {
+  color: rgb(249, 243, 212);
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+}
+.Watchmaindivsub .Watchmainimg {
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+}
+.Watchmaindivsub .Watchmainimg img {
+  width: 150px;
+  filter: sepia(100);
+}
+.Watchmaindivsub h2 {
+  color: rgb(249, 243, 212);
+  margin-top: 20px;
+  text-align: center;
+  text-align: center;
+  font-size: 30px;
+}
+.Watchmaindivsub h6 {
+  color: rgb(241, 227, 143);
+  margin-top: 20px;
+  text-align: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+.Watchimage62 {
+  width: 100%;
+  text-align: center;
+}
+.Watchimage62 img {
+  width: 70%;
+  height: 40px;
+  filter: brightness(90);
+  margin-top: 20px;
+}
+.Watchmaindivmatter {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.Watchmaindivmattersub1 {
+  display: flex;
+}
+.Watchmaindivmattersub1 p {
+  font-size: 50px;
+  color: white;
+}
+.Watchmaindivmattersub2 h5 {
+  color: white;
+  font-size: 26px;
+  font-weight: 100;
+  width: 50px;
+}

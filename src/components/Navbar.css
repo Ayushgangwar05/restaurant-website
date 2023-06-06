@@ -1,0 +1,161 @@
+.navbar1 {
+  background-color: rgb(52, 51, 51);
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin-left: 30px;
+}
+.navbar1 .navbarlink {
+  width: 100px;
+  height: auto;
+  margin-top: 5px;
+}
+.navbar1 a span {
+  color: green;
+}
+.navbar1 .button1 {
+  width: 40px;
+  margin-right: 50px;
+  margin-top: 11px;
+}
+.navbar1 button {
+  width: 80px;
+  background-color: green;
+  color: white;
+  height: 30px;
+  /* margin-top: 10px; */
+}
+.mainsubnavbar {
+  background-image: url("../images/slider-1.427b3237a3c8fa6857c0.jpg");
+  image-rendering: optimizeQuality;
+  object-fit: cover;
+  width: 100%;
+  height: 900px;
+}
+.subnavbar {
+  display: flex;
+  width: auto;
+  height: 60px;
+  justify-content: space-between;
+  gap: 5vw;
+  align-items: center;
+}
+
+.subnavbar1 .paranamenavbar {
+  width: 290px;
+}
+.subnavbar1 .para1namenavbar {
+  width: 200px;
+}
+.subnavbar1 {
+  color: white;
+  margin: 0px 20px;
+  font-size: 14px;
+  display: flex;
+  gap: 50px;
+}
+
+.navbarlink2 {
+  margin: 10px 10vw;
+  width: auto;
+  display: flex;
+  gap: 10px;
+}
+.navbarlink2 a {
+  text-decoration: none;
+  color: white;
+}
+.navbarlink2 .sublink {
+  margin-left: 23vw;
+  width: 150px;
+}
+.blankdiv4 {
+  width: 100%;
+  border-top: 1px solid rgb(253, 249, 249);
+  white-space: 100%;
+}
+
+.section3 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+}
+.section3 button {
+  background-color: rgb(250, 180, 172);
+  color: black;
+  width: 170px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.mainsubnavbar .heading {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 150px;
+}
+.mainsubnavbar .heading h4 {
+  font-size: 15px;
+  color: rgb(244, 222, 94);
+  height: 1px;
+}
+.mainsubnavbar .heading h4 span {
+  margin-left: 9px;
+}
+.mainsubnavbar .heading h1 {
+  font-size: 65px;
+  font-weight: 700px;
+  height: 120px;
+}
+.mainsubnavbar .heading p {
+  font-size: 20px;
+}
+.mainsubnavbar .heading button {
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  color: rgb(235, 191, 110);
+  border-style: solid;
+  border-color: rgb(235, 191, 110);
+}
+.End {
+  width: 100%;
+  height: 200px;
+  justify-content: end;
+  display: flex;
+  align-items: end;
+}
+.mainsubnavbar .navend {
+  width: 100px;
+  height: 130px;
+  background-color: rgb(235, 191, 110);
+  margin-right: 50px;
+}
+.mainsubnavbar .navend a p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.mainsubnavbar .navend .navendimg {
+  color: black;
+  width: 70px;
+  margin: 0px 12px;
+}
+.mainsubnavbar .navend a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}

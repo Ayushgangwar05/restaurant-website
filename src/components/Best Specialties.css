@@ -1,0 +1,56 @@
+.specialtiessubmaindiv1 {
+  display: flex;
+  justify-content: center;
+}
+.specialtiessubmaindiv2 {
+  background-color: rgb(28, 27, 27);
+  margin-top: -23px;
+  width: 100%;
+  height: 120vh;
+}
+.specialtiessubmaindiv3 {
+  height: auto;
+  text-align: center;
+}
+.specialtiessubmaindiv3 h4 {
+  color: rgb(228, 191, 98);
+  padding-top: 20px;
+}
+.specialtiessubmaindiv3 h1 {
+  color: rgb(244, 220, 161);
+  font-size: 50px;
+  font-weight: normal;
+}
+.specialtiessubmaindiv img {
+  width: 250px;
+  height: 300px;
+}
+.specialtiessubmaindiv h1 {
+  font-size: 27px;
+  font-weight: lighter;
+}
+.specialtiessubmaindiv p {
+  color: rgb(214, 200, 200);
+  width: 300px;
+  font-size: 15px;
+}
+.specialtiessubmaindiv span {
+  color: rgb(244, 220, 161);
+  font-size: 20px;
+}
+.specialtiessubmaindiv2 button {
+  width: 170px;
+  height: 60px;
+  background-color: transparent;
+  border-color: rgb(244, 220, 161);
+  color: rgb(244, 220, 161);
+}
+.specialitiesbutton {
+  width: 100%;
+  text-align: center;
+}
+.specialitiesbutton button:hover {
+  background-color: rgb(247, 217, 141);
+  color: rgb(67, 65, 65);
+  transition: all 0.7s ease-in-out;
+}

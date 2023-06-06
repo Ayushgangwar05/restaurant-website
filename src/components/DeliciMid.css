@@ -1,0 +1,149 @@
+.delicimidmainpage {
+  position: relative;
+}
+.midmaincontainer {
+  background-image: url("../images/image-2.a39c46e803cccd321e96.jpg");
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  margin-top: -22px;
+}
+.midmaincontainer1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  align-items: center;
+}
+.midmaincontainer1 h1 {
+  font-size: 60px;
+  color: rgb(232, 205, 136);
+}
+.midmaincontainer1 p {
+  font-size: 30px;
+  width: 540px;
+  color: rgb(235, 204, 125);
+  text-align: center;
+}
+.midmaincontainer1img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.midmaincontainer1img img {
+  width: 100px;
+  margin: 20px 20px;
+  border-radius: 50% 50%;
+}
+.maindivinputtag {
+  width: 100%;
+}
+.Reservation {
+  display: flex;
+  height: 90vh;
+  background-color: black;
+  justify-content: center;
+  width: 70%;
+  position: absolute;
+  top: 0px;
+  margin-top: 75vh;
+  margin-left: 16vw;
+}
+.Reservation1 {
+  padding: 20px;
+  margin-left: 40px;
+}
+.Reservation1 h1 {
+  color: white;
+  font-size: 50px;
+}
+.Reservation1 p {
+  color: white;
+  margin-left: 20px;
+}
+.inputbox {
+  margin-top: 50px;
+}
+.Reservation1 input[type="text"] {
+  width: 200px;
+  height: 30px;
+}
+.Reservation1 input[type="Number"] {
+  width: 200px;
+  height: 30px;
+}
+.Reservation1 input {
+  margin: 0px 10px;
+}
+.inputbox1 {
+  margin: 20px 0px;
+}
+.inputbox1 select[name="select"] {
+  width: 140px;
+  height: 30px;
+}
+.inputbox1 select {
+  margin-left: 10px;
+}
+.inputbutton {
+  margin: 30px 10px;
+}
+.inputbutton button {
+  width: 440px;
+  height: 40px;
+  background-color: transparent;
+  color: rgb(228, 200, 130);
+  border-color: rgb(228, 200, 130);
+}
+.contactus {
+  background-image: url("../images/pattern-4.6e9add1b0612329274ab.png");
+  width: 500px;
+  height: 90vh;
+  margin-left: 19px;
+}
+.contactus h1 {
+  color: white;
+  text-align: center;
+  margin-top: 55px;
+  font-size: 50px;
+}
+.contactus h4 {
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+}
+.contactus a {
+  text-decoration: none;
+  text-align: center;
+  margin-left: 10vw;
+  color: rgb(236, 219, 177);
+  font-size: 25px;
+}
+.contactus h5 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+.contactus p {
+  color: rgb(208, 238, 163);
+  text-align: center;
+  align-items: center;
+}
+.Enddelciouspage {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(23, 22, 22);
+}
+.Enddelciouspageimg {
+  position: absolute;
+  margin-top: 50vh;
+  margin-left: 84vw;
+}
+.Enddelciouspageimg img {
+  width: 220px;
+}
+.inputbutton button:hover {
+  background-color: rgb(247, 217, 141);
+  color: rgb(67, 65, 65);
+  transition: all 0.7s ease-in-out;
+}

@@ -1,0 +1,43 @@
+.navbar1 button:hover {
+  background-color: rgb(151, 240, 18);
+  border-radius: 10px 10px;
+}
+.navbarlink2 a:hover {
+  color: rgb(240, 215, 70);
+}
+.section3 button:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.7s ease-in-out;
+}
+.heading button:hover {
+  background-color: rgb(247, 217, 141);
+  color: rgb(67, 65, 65);
+  transition: all 0.7s ease-in-out;
+}
+.subcard3 img:hover {
+  width: 340px;
+  height: 410px;
+  transition: all 0.5s ease-in-out;
+}
+.subcard4 img:hover {
+  width: 340px;
+  height: 410px;
+  transition: all 0.5s ease-in-out;
+}
+.submaindiv button:hover {
+  background-color: rgb(247, 217, 141);
+  color: rgb(67, 65, 65);
+  transition: all 0.7s ease-in-out;
+}
+.specialdish3 button:hover {
+  background-color: rgb(247, 217, 141);
+  color: rgb(67, 65, 65);
+  transition: all 0.7s ease-in-out;
+}
+.deliciouspara button:hover {
+  background-color: rgb(247, 217, 141);
+  color: rgb(67, 65, 65);
+  transition: all 0.7s ease-in-out;
+}
+

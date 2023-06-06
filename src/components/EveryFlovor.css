@@ -1,0 +1,110 @@
+.maindiv9 {
+  background-color: rgb(24, 22, 22);
+  margin-top: -22px;
+  display: flex;
+  width: 100%;
+  height: 125vh;
+}
+.submaindiv {
+  margin-top: 60px;
+  text-align: center;
+  width: 45%;
+}
+.submaindiv h4 {
+  color: goldenrod;
+}
+.submaindiv h1 {
+  color: rgb(233, 221, 150);
+  font-weight: normal;
+  font-size: 45px;
+}
+.submaindiv p {
+  width: 350px;
+  align-items: center;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.submaindiv a {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 30px;
+}
+.submaindiv button {
+  width: 180px;
+  height: 50px;
+  background-color: transparent;
+  color: rgb(230, 191, 92);
+  border-color: rgb(243, 206, 113);
+}
+.mainpartdiv {
+  position: relative;
+  width: 700px;
+}
+.submaindiv9 {
+  margin: 13vh 120px;
+}
+.maindivflovor1 {
+  position: absolute;
+  top: 0px;
+  margin-top: 60vh;
+  margin-left: 20px;
+  width: 250px;
+  height: 48vh;
+}
+.submaindivflovor img {
+  width: 100px;
+  height: 48vh;
+  margin-left: 80px;
+  filter: brightness(10);
+}
+.submaindivflovor {
+  width: 200px;
+}
+.maindivflovor {
+  position: relative;
+  margin-top: 20px;
+}
+.submaindiv1flovor {
+  position: absolute;
+  top: 38px;
+  width: 250px;
+}
+.submaindiv1flovor img {
+  width: 250px;
+  height: 270px;
+}
+.submaindiv {
+  position: relative;
+}
+.maindiv9sub {
+  position: absolute;
+  top: 0px;
+  animation: example2 7s ease-in-out infinite alternate backwards;
+  margin-top: 40vh;
+}
+@keyframes example2 {
+  0% {
+    bottom: 0px;
+    top: 0px;
+  }
+  50% {
+    bottom: 100px;
+    top: 100px;
+  }
+  75% {
+    bottom: 120px;
+    top: 130px;
+  }
+  100% {
+    bottom: 0px;
+    top: 0px;
+  }
+}
+.submaindiv90 {
+  position: absolute;
+  top: 0px;
+  margin-top: 30px;
+  margin-left: 32vw;
+}

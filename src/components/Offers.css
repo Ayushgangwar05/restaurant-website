@@ -1,0 +1,101 @@
+.Offresmaindiv1 {
+  background-image: url("../images/image-4.d995f9d301855fd7f80c.jpg");
+  width: 100%;
+  height: 90vh;
+  object-fit: contain;
+}
+.Offresmaindiv {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  text-align: center;
+}
+.Offresmaindivsub {
+  margin-top: 120px;
+}
+.Offresmaindivsub a {
+  text-decoration: none;
+  color: rgb(251, 238, 163);
+}
+.Offresmaindivsub li {
+  list-style: none;
+  margin-top: 20px;
+}
+.Offresmaidivend {
+  margin-top: 110px;
+  text-align: center;
+}
+.Offresmaidivend a {
+  text-decoration: none;
+  color: rgb(251, 238, 163);
+}
+.Offresmaidivend li {
+  list-style: none;
+  margin-top: 20px;
+}
+.Offresmaidivimg {
+  margin-top: 70px;
+  position: relative;
+  width: 430px;
+  height: 65vh;
+  border-right: solid;
+  border-left: solid;
+}
+.Offresmaidivimg img {
+  width: 430px;
+  height: 65vh;
+  image-resolution: 100%;
+  filter: brightness(1);
+  filter: sepia(1);
+}
+.Offresmaidivimgsubdiv {
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
+}
+.Offresmaidivimgsubdiv img {
+  width: 150px;
+  height: 50px;
+}
+.Offresmaidivimgsubdiv p,
+a {
+  color: rgb(238, 229, 173);
+  text-decoration: none;
+}
+.Offresmaidivimgsubdiv h2 {
+  color: rgb(238, 229, 173);
+}
+.Offresmaidivimgsubdiv input {
+  width: 200px;
+  height: 30px;
+  border-style: solid;
+  border-color: 2px solid black;
+}
+.Offresmaidivimgsubdiv button {
+  width: 100px;
+  height: 35px;
+}
+.Offresmaindiv1 .para100 {
+  padding: 10px;
+  margin-top: 30px;
+  text-align: center;
+}
+.Offresmaindiv1 .para100 {
+  color: rgb(238, 229, 173);
+}
+.Offresmaindiv1 .para100 a {
+  color: rgb(238, 229, 173);
+  margin-left: 10px;
+  font-size: 20px;
+}
+.Offresmaindivsub,
+.Offresmaidivend li:hover {
+  color: white;
+}
+.Offresmaidivimg button:hover {
+  background-color: rgb(80, 79, 79);
+  color: rgb(24, 24, 24);
+  transition: all 0.7s ease-in-out;
+}

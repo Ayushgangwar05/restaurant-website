@@ -1,0 +1,160 @@
+.maindiv {
+  background-color: black;
+  width: auto;
+  height: 159vh;
+}
+.maindiv .maindivheading {
+  align-items: center;
+  text-align: center;
+  margin-top: -23px;
+}
+.maindiv .maindivheading h4 {
+  color: rgb(243, 222, 105);
+  font-weight: 700px;
+}
+.maindiv .maindivheading h1 {
+  margin-top: 50px;
+  color: rgb(240, 223, 181);
+  font-size: 50px;
+  font-weight: normal;
+}
+.maincards {
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+}
+.submaincard {
+  position: relative;
+  width: 150px;
+  height: 67vh;
+  margin-right: 100px;
+}
+.submaincard1 img {
+  width: 150px;
+  height: 67vh;
+  margin-left: 80px;
+  filter: brightness(10);
+}
+.subcard3 {
+  position: absolute;
+  top: 40px;
+  width: 340px;
+  height: 420px;
+}
+.subcard3 img {
+  width: 320px;
+  height: 400px;
+}
+.submaincard2 {
+  position: relative;
+  margin-left: 20px;
+}
+.submaincard2 p {
+  color: white;
+  width: 390px;
+  text-align: center;
+  font-size: 16px;
+}
+.submaincard3 {
+  margin-top: 90px;
+  margin-left: 70px;
+}
+.submaincard3 img {
+  width: 150px;
+  height: 67vh;
+  filter: brightness(10);
+}
+.subcard4 {
+  position: absolute;
+  top: 210px;
+  width: 340px;
+  height: 420px;
+}
+.subcard4 img {
+  margin-left: 70px;
+  width: 320px;
+  height: 400px;
+}
+.subcardheading {
+  margin-left: 90px;
+  width: 100px;
+  margin-top: 20px;
+}
+.subcardheading a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+.subcardheading .subnavbarlink {
+  font-size: 15px;
+  margin-left: 18px;
+  color: rgb(227, 188, 88);
+}
+.subcardheading1 {
+  width: 100px;
+  margin-left: 160px;
+  margin-top: 20px;
+}
+.subcardheading1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+.subcardheading1 .subnavbarlink {
+  font-size: 15px;
+  margin-left: 18px;
+  color: rgb(227, 188, 88);
+}
+.backgroundimagediv {
+  text-align: end;
+}
+.backgroundimagediv {
+  width: 320px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 7s;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {
+    bottom: 0px;
+    top: 0px;
+  }
+  50% {
+    bottom: 100px;
+    top: 100px;
+  }
+  75% {
+    bottom: 120px;
+    top: 130px;
+  }
+  100% {
+    bottom: 130px;
+    top: 0px;
+  }
+}
+.maindiv {
+  position: relative;
+  text-align: center;
+}
+.maindiv2 {
+  position: absolute;
+  top: 0;
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.backgroundimagediv2 {
+  position: absolute;
+  margin-top: 55vh;
+  animation-name: example;
+  animation-duration: 7s;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}

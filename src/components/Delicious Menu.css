@@ -1,0 +1,171 @@
+.maincontainer {
+  background-color: rgb(28, 27, 27);
+  margin-top: -23px;
+  width: 100%;
+  height: 155vh;
+  position: relative;
+}
+.submaincontainer {
+  text-align: center;
+  padding-top: 70px;
+}
+.submaincontainer h4 {
+  color: rgb(239, 218, 97);
+}
+.submaincontainer h1 {
+  color: rgb(247, 236, 173);
+  font-weight: normal;
+  font-size: 50px;
+}
+.subcontainernav {
+  width: 100%;
+}
+.subcontainersubnav {
+  display: flex;
+  justify-content: center;
+}
+.subcontainersubnav ul {
+  border-top: 1px solid rgb(191, 187, 187);
+  border-bottom: 1px solid rgb(182, 180, 180);
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+}
+.subcontainersubnav ul a {
+  text-decoration: none;
+}
+.subcontainersubnav ul a li {
+  margin: 25px 40px;
+  list-style: none;
+  font-size: 20px;
+  color: white;
+}
+.subdivcontainerimages1 {
+  display: flex;
+  margin: 20px 20px;
+}
+.subdivcontainerimages1 img {
+  width: 100px;
+}
+.subdivcontainerlink {
+  display: flex;
+  text-align: center;
+  width: 370px;
+  height: 55px;
+}
+.subdivcontainerlink .interallink {
+  width: 100px;
+}
+.subdivcontainerlink a {
+  text-decoration: none;
+  color: white;
+  margin: 10px 10px;
+  font-size: 18px;
+}
+.blankdiv {
+  width: 190px;
+  border-top: 1 px solid white;
+  height: 30px;
+  border-bottom: 1 px solid white;
+  margin: 20px 0px;
+}
+.subdivcontainerlink p {
+  color: goldenrod;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: -0.05px;
+}
+.maindivcontainerinteral {
+  display: flex;
+  flex-direction: column;
+}
+
+.linksubdivcontain {
+  margin: 0px 15px;
+  width: 400px;
+}
+.linksubdivcontain a {
+  color: rgb(181, 172, 172);
+  text-decoration: none;
+}
+.subdivcontainerimages {
+  display: flex;
+  flex-direction: column;
+}
+.maincontainerforimage {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.blankdiv1 {
+  border-right: 1px solid rgb(201, 195, 195);
+  height: 60vh;
+}
+.deliciouspara {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.deliciouspara p {
+  color: white;
+  font-size: 20px;
+}
+.deliciouspara button {
+  width: 150px;
+  height: 50px;
+  color: rgb(221, 207, 128);
+  border-color: gb(221, 207, 128);
+  background-color: transparent;
+}
+.blankdiv3 {
+  width: 150px;
+  border-top: 1px solid white;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.subdivcontainerlink span {
+  width: 60px;
+  background-color: aliceblue;
+  color: black;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.backgroundimagediv {
+  position: absolute;
+  top: 0px;
+}
+.backgroundimagediv img {
+  width: 850px;
+  opacity: 0.6;
+}
+.backgroundimagediv1 {
+  position: absolute;
+  top: 0px;
+  margin: 94vh 55vw;
+  animation: example9 7s ease-in-out infinite alternate backwards;
+}
+@keyframes example9 {
+  0% {
+    bottom: 0px;
+    top: 0px;
+  }
+  50% {
+    bottom: 100px;
+    top: 100px;
+  }
+  75% {
+    bottom: 120px;
+    top: 130px;
+  }
+  100% {
+    bottom: 0px;
+    top: 0px;
+  }
+}
+.backgroundimagediv1 img {
+  width: 660px;
+  opacity: 0.6;
+}

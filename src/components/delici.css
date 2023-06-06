@@ -1,0 +1,12 @@
+div{
+  scroll-behavior: smooth;
+}
+.delicisubmainparts1 {
+  position: absolute;
+  top: 80vh;
+  margin-left: 74vw;
+  z-index: 1;
+}
+.delicimainparts {
+  position: relative;
+}

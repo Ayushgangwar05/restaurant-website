@@ -1,0 +1,110 @@
+.specialdish {
+  width: 100%;
+  height: auto;
+}
+.specialdish1 {
+  display: flex;
+}
+.specialdish1 img {
+  width: 100vw;
+  height: 110vh;
+}
+.specialdish2 {
+  background-color: black;
+  width: 100%;
+  position: relative;
+}
+.specialdish3 {
+  padding: 20px;
+  color: white;
+  margin-top: 15vh;
+  margin-left: 8vw;
+  position: relative;
+}
+.specialdish3 h4 {
+  color: goldenrod;
+}
+.specialdish3 h1 {
+  color: rgb(243, 232, 169);
+  font-size: 47px;
+  font-weight: normal;
+}
+.specialdish3 p {
+  width: 340px;
+  color: rgb(243, 232, 169);
+  font-size: 20px;
+}
+.specialdish3 .specialparaname {
+  color: rgb(56, 55, 55);
+}
+.specialdish3 .specialparaname span {
+  color: rgb(243, 232, 169);
+  margin-left: 20px;
+}
+.specialdish3 button {
+  width: 230px;
+  height: 55px;
+  color: rgb(243, 232, 169);
+  background-color: transparent;
+  border-color: rgb(243, 232, 169);
+}
+.specialdishimg img {
+  width: 35px;
+  height: 50px;
+}
+.specialdishimg {
+  position: absolute;
+  top: 0px;
+  margin: 22vh 5vw;
+  width: 100px;
+  height: 100px;
+  animation: example3 7s ease-in-out infinite alternate backwards;
+}
+@keyframes example3 {
+  0% {
+    bottom: 0px;
+    top: 0px;
+  }
+  50% {
+    bottom: 30px;
+    top: 3px;
+  }
+  75% {
+    bottom: 20px;
+    top: 20px;
+  }
+  100% {
+    bottom: 0px;
+    top: 0px;
+  }
+}
+.specialimage12 {
+  position: absolute;
+  top: 0px;
+  margin-left: 23vw;
+  margin-top: 28vh;
+}
+.specialimage12 img {
+  width: 200px;
+  height: 380px;
+  animation: example4 7s ease-in-out infinite alternate backwards;
+  position: relative;
+}
+@keyframes example4 {
+  0% {
+    bottom: 0px;
+    top: 0px;
+  }
+  50% {
+    bottom: 100px;
+    top: 100px;
+  }
+  75% {
+    bottom: 120px;
+    top: 120px;
+  }
+  100% {
+    bottom: 140px;
+    top: 140px;
+  }
+}
